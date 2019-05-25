@@ -1,0 +1,26 @@
+# /etc/conf.d/madcoind: config file for /etc/init.d/madcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/madcoin/madcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/madcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/madcoind.pid"
+
+# Where to write madcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/madcoind"
+
+# User and group to own madcoind process
+#BITCOIND_USER="madcoin"
+#BITCOIND_GROUP="madcoin"
+
+# Path to madcoind executable
+#BITCOIND_BIN="/usr/bin/madcoind"
+
+# Nice value to run madcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
